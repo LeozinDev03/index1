@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Computer Force - Home</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="search.js" defer></script>
+</head>
+<body>
+  <header>
+    <img src="logo.jpg" alt="Computer Force Logo" class="logo">
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="register.html">Register</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="Search products...">
+      <button onclick="searchProducts()">Search</button>
+    </div>
+  </nav>
+
+  <aside>
+    <h2>Purchases</h2>
+    <table>
+      <tr>
+        <td>0 items</td>
+        <td>Cart sub-total: $0</td>
+      </tr>
+      <tr>
+        <td colspan="2"><button>Go to Checkout</button></td>
+      </tr>
+    </table>
+  </aside>
+
+  <main>
+    <h1>Welcome to Computer Force</h1>
+    <p>Computer Force is your online expert in all things computing.</p>
+    <section>
+      <h2>Our Products</h2>
+      <ul>
+        <li><a href="products.html#computers">Computers</a></li>
+        <li><a href="products.html#laptops">Laptops</a></li>
+        <li><a href="products.html#monitors">Monitors</a></li>
+        <li><a href="products.html#printers">Printing & Scanning</a></li>
+        <li><a href="products.html#software">Software</a></li>
+        <li><a href="products.html#tablets">Tablets</a></li>
+      </ul>
+    </section>
+    <div id="searchResults"></div>
+  </main>
+
+  <footer>
+    <p>&copy; <script>document.write(new Date().getFullYear());</script> Computer Force. Developed by Leonardo</p>
+  </footer>
+</body>
+</html>

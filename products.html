@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Computer Force - Products</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="search.js" defer></script>
+</head>
+<body>
+  <header>
+    <img src="logo.jpg" alt="Computer Force Logo" class="logo">
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="register.html">Register</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="Search products...">
+      <button onclick="searchProducts()">Search</button>
+    </div>
+  </nav>
+
+  <aside>
+    <h2>Purchases</h2>
+    <table>
+      <tr>
+        <td>0 items</td>
+        <td>Cart sub-total: $0</td>
+      </tr>
+      <tr>
+        <td colspan="2"><button>Go to Checkout</button></td>
+      </tr>
+    </table>
+  </aside>
+
+  <main>
+    <h1>Products we sell</h1>
+    <p>Computer Force sells products in the following categories:</p>
+    <section>
+      <ul>
+        <li><a href="#audio">Audio</a></li>
+        <li><a href="#computers">Computers</a></li>
+        <li><a href="#graphics-cards">Graphics Cards</a></li>
+        <li><a href="#keyboard-mice">Keyboard and Mice</a></li>
+        <li><a href="#laptops">Laptops</a></li>
+        <li><a href="#monitors">Monitors</a></li>
+        <li><a href="#networking">Networking</a></li>
+        <li><a href="#peripherals">Peripherals</a></li>
+        <li><a href="#printing">Printing & Scanning</a></li>
+        <li><a href="#software">Software</a></li>
+        <li><a href="#storage">Storage</a></li>
+        <li><a href="#tablets">Tablets</a></li>
+      </ul>
+    </section>
+    <div id="searchResults"></div>
+  </main>
+
+  <footer>
+    <p>&copy; <script>document.write(new Date().getFullYear());</script> Computer Force. Developed by Leonardo</p>
+  </footer>
+</body>
+</html>
